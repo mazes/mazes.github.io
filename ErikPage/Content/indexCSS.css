@@ -1,0 +1,107 @@
+body
+{
+	oveflow: hidden;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+a
+{
+	text-decoration: none
+}
+
+/* header */
+#header-section
+{ 	
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	box-shadow:	0 2px 2px 1px black;
+	
+}
+
+.positionh1
+{
+	position: relative;
+	top: 5px;
+	right: -15px;
+}
+
+/* Sidebar nav */
+#sidebar-navigation
+{	
+	margin-top: 2px;
+	float: left;
+	height: 100%;
+	width: 300px;
+	background-color: #8D0C0E;
+	
+}
+
+#collapsed-menu
+{
+	position:absolute;
+	top: 112px;
+	margin-left: -280px;
+	background-color: black;
+	padding-top: 40px;
+	padding-left: 45px;
+	opacity: 0.9;
+	width: 270px;
+	height: 100%;
+	border-radius: 15px 15px 0 0;
+	box-shadow:1px 0 1px 0 black;
+}
+
+#collapsed-menu:hover
+{
+	margin-left: 0;
+	animation-duration: 2000;
+}
+
+#collapsed-menu ul
+{
+	position: relative;
+	top: 5px;
+	right: -15px;
+	color: white;
+	list-style: none;	
+}
+
+#collapsed-menu li
+{
+
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#collapsed-menu a
+{
+	color: white;
+	font-family: Old English Text MT;
+	font-size: 20pt;
+}
+
+#sidebar-navigation img
+{
+	float: left;
+	position: relative;
+	top: 110px;
+	opacity: 0.8;
+}
+
+
+/* text edits */
+.old-englished
+{
+	font-family: Old English Text MT;
+}
+
+.selected-item
+{
+	color: #8D0C0E;
+}

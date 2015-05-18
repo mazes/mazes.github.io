@@ -1,0 +1,59 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="Content/indexCSS.css" />
+	<link rel="stylesheet" type="text/css" href="Content/newsCSS.css" />
+	<script src="Scripts/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	
+	<title> ERIK - The band</title>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : '505814076238637',
+			  xfbml      : true,
+			  version    : 'v2.3'
+			});
+		  };
+
+		  
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "https://connect.facebook.net/en_US/all.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div id="header-section">
+    	<h1 class="old-englished positionh1">ERIK - Welcome to the official website!</h1>
+        <div id="header-photo-montage">
+        </div>
+	</div>
+	
+	<div id="sidebar-navigation">
+		<img src="Images/erikSidebarPicTransp.png" />
+        <div id="collapsed-menu">
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="selected-item"><a href="news.html">News</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+	</div>
+	<div class="fb-like fb-position" data-href="https://www.facebook.com/Eriktheband" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	
+	
+
+</body>
+
+</html>
